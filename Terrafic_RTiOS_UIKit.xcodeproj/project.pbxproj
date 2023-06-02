@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD193A522A2A2B8C005E22EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD193A512A2A2B8C005E22EE /* AppDelegate.swift */; };
+		DD193A542A2A2B8C005E22EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD193A532A2A2B8C005E22EE /* SceneDelegate.swift */; };
+		DD193A562A2A2B8C005E22EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD193A552A2A2B8C005E22EE /* ViewController.swift */; };
+		DD193A592A2A2B8C005E22EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD193A572A2A2B8C005E22EE /* Main.storyboard */; };
+		DD193A5B2A2A2B8D005E22EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD193A5A2A2A2B8D005E22EE /* Assets.xcassets */; };
+		DD193A5E2A2A2B8D005E22EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD193A5C2A2A2B8D005E22EE /* LaunchScreen.storyboard */; };
+		DD193A692A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD193A682A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitTests.swift */; };
+		DD193A732A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD193A722A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitUITests.swift */; };
+		DD193A752A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD193A742A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD193A652A2A2B8E005E22EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD193A462A2A2B8B005E22EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD193A4D2A2A2B8C005E22EE;
+			remoteInfo = Terrafic_RTiOS_UIKit;
+		};
+		DD193A6F2A2A2B8E005E22EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD193A462A2A2B8B005E22EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD193A4D2A2A2B8C005E22EE;
+			remoteInfo = Terrafic_RTiOS_UIKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD193A4E2A2A2B8C005E22EE /* Terrafic_RTiOS_UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Terrafic_RTiOS_UIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD193A512A2A2B8C005E22EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD193A532A2A2B8C005E22EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DD193A552A2A2B8C005E22EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD193A582A2A2B8C005E22EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD193A5A2A2A2B8D005E22EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD193A5D2A2A2B8D005E22EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD193A5F2A2A2B8D005E22EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD193A642A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Terrafic_RTiOS_UIKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD193A682A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terrafic_RTiOS_UIKitTests.swift; sourceTree = "<group>"; };
+		DD193A6E2A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Terrafic_RTiOS_UIKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD193A722A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terrafic_RTiOS_UIKitUITests.swift; sourceTree = "<group>"; };
+		DD193A742A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terrafic_RTiOS_UIKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD193A4B2A2A2B8C005E22EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD193A612A2A2B8E005E22EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD193A6B2A2A2B8E005E22EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD193A452A2A2B8B005E22EE = {
+			isa = PBXGroup;
+			children = (
+				DD193A502A2A2B8C005E22EE /* Terrafic_RTiOS_UIKit */,
+				DD193A672A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitTests */,
+				DD193A712A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitUITests */,
+				DD193A4F2A2A2B8C005E22EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD193A4F2A2A2B8C005E22EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD193A4E2A2A2B8C005E22EE /* Terrafic_RTiOS_UIKit.app */,
+				DD193A642A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitTests.xctest */,
+				DD193A6E2A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD193A502A2A2B8C005E22EE /* Terrafic_RTiOS_UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				DD193A512A2A2B8C005E22EE /* AppDelegate.swift */,
+				DD193A532A2A2B8C005E22EE /* SceneDelegate.swift */,
+				DD193A552A2A2B8C005E22EE /* ViewController.swift */,
+				DD193A572A2A2B8C005E22EE /* Main.storyboard */,
+				DD193A5A2A2A2B8D005E22EE /* Assets.xcassets */,
+				DD193A5C2A2A2B8D005E22EE /* LaunchScreen.storyboard */,
+				DD193A5F2A2A2B8D005E22EE /* Info.plist */,
+			);
+			path = Terrafic_RTiOS_UIKit;
+			sourceTree = "<group>";
+		};
+		DD193A672A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD193A682A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitTests.swift */,
+			);
+			path = Terrafic_RTiOS_UIKitTests;
+			sourceTree = "<group>";
+		};
+		DD193A712A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD193A722A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitUITests.swift */,
+				DD193A742A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitUITestsLaunchTests.swift */,
+			);
+			path = Terrafic_RTiOS_UIKitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD193A4D2A2A2B8C005E22EE /* Terrafic_RTiOS_UIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD193A782A2A2B8E005E22EE /* Build configuration list for PBXNativeTarget "Terrafic_RTiOS_UIKit" */;
+			buildPhases = (
+				DD193A4A2A2A2B8C005E22EE /* Sources */,
+				DD193A4B2A2A2B8C005E22EE /* Frameworks */,
+				DD193A4C2A2A2B8C005E22EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Terrafic_RTiOS_UIKit;
+			productName = Terrafic_RTiOS_UIKit;
+			productReference = DD193A4E2A2A2B8C005E22EE /* Terrafic_RTiOS_UIKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD193A632A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD193A7B2A2A2B8E005E22EE /* Build configuration list for PBXNativeTarget "Terrafic_RTiOS_UIKitTests" */;
+			buildPhases = (
+				DD193A602A2A2B8E005E22EE /* Sources */,
+				DD193A612A2A2B8E005E22EE /* Frameworks */,
+				DD193A622A2A2B8E005E22EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD193A662A2A2B8E005E22EE /* PBXTargetDependency */,
+			);
+			name = Terrafic_RTiOS_UIKitTests;
+			productName = Terrafic_RTiOS_UIKitTests;
+			productReference = DD193A642A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD193A6D2A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD193A7E2A2A2B8E005E22EE /* Build configuration list for PBXNativeTarget "Terrafic_RTiOS_UIKitUITests" */;
+			buildPhases = (
+				DD193A6A2A2A2B8E005E22EE /* Sources */,
+				DD193A6B2A2A2B8E005E22EE /* Frameworks */,
+				DD193A6C2A2A2B8E005E22EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD193A702A2A2B8E005E22EE /* PBXTargetDependency */,
+			);
+			name = Terrafic_RTiOS_UIKitUITests;
+			productName = Terrafic_RTiOS_UIKitUITests;
+			productReference = DD193A6E2A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD193A462A2A2B8B005E22EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DD193A4D2A2A2B8C005E22EE = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					DD193A632A2A2B8E005E22EE = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = DD193A4D2A2A2B8C005E22EE;
+					};
+					DD193A6D2A2A2B8E005E22EE = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = DD193A4D2A2A2B8C005E22EE;
+					};
+				};
+			};
+			buildConfigurationList = DD193A492A2A2B8B005E22EE /* Build configuration list for PBXProject "Terrafic_RTiOS_UIKit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD193A452A2A2B8B005E22EE;
+			productRefGroup = DD193A4F2A2A2B8C005E22EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD193A4D2A2A2B8C005E22EE /* Terrafic_RTiOS_UIKit */,
+				DD193A632A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitTests */,
+				DD193A6D2A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD193A4C2A2A2B8C005E22EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD193A5E2A2A2B8D005E22EE /* LaunchScreen.storyboard in Resources */,
+				DD193A5B2A2A2B8D005E22EE /* Assets.xcassets in Resources */,
+				DD193A592A2A2B8C005E22EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD193A622A2A2B8E005E22EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD193A6C2A2A2B8E005E22EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD193A4A2A2A2B8C005E22EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD193A562A2A2B8C005E22EE /* ViewController.swift in Sources */,
+				DD193A522A2A2B8C005E22EE /* AppDelegate.swift in Sources */,
+				DD193A542A2A2B8C005E22EE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD193A602A2A2B8E005E22EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD193A692A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD193A6A2A2A2B8E005E22EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD193A732A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitUITests.swift in Sources */,
+				DD193A752A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD193A662A2A2B8E005E22EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD193A4D2A2A2B8C005E22EE /* Terrafic_RTiOS_UIKit */;
+			targetProxy = DD193A652A2A2B8E005E22EE /* PBXContainerItemProxy */;
+		};
+		DD193A702A2A2B8E005E22EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD193A4D2A2A2B8C005E22EE /* Terrafic_RTiOS_UIKit */;
+			targetProxy = DD193A6F2A2A2B8E005E22EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD193A572A2A2B8C005E22EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD193A582A2A2B8C005E22EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD193A5C2A2A2B8D005E22EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD193A5D2A2A2B8D005E22EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD193A762A2A2B8E005E22EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD193A772A2A2B8E005E22EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD193A792A2A2B8E005E22EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Terrafic_RTiOS_UIKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Terra.Terrafic-RTiOS-UIKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD193A7A2A2A2B8E005E22EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Terrafic_RTiOS_UIKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Terra.Terrafic-RTiOS-UIKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD193A7C2A2A2B8E005E22EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Terra.Terrafic-RTiOS-UIKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Terrafic_RTiOS_UIKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Terrafic_RTiOS_UIKit";
+			};
+			name = Debug;
+		};
+		DD193A7D2A2A2B8E005E22EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Terra.Terrafic-RTiOS-UIKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Terrafic_RTiOS_UIKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Terrafic_RTiOS_UIKit";
+			};
+			name = Release;
+		};
+		DD193A7F2A2A2B8E005E22EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Terra.Terrafic-RTiOS-UIKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Terrafic_RTiOS_UIKit;
+			};
+			name = Debug;
+		};
+		DD193A802A2A2B8E005E22EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Terra.Terrafic-RTiOS-UIKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Terrafic_RTiOS_UIKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD193A492A2A2B8B005E22EE /* Build configuration list for PBXProject "Terrafic_RTiOS_UIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD193A762A2A2B8E005E22EE /* Debug */,
+				DD193A772A2A2B8E005E22EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD193A782A2A2B8E005E22EE /* Build configuration list for PBXNativeTarget "Terrafic_RTiOS_UIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD193A792A2A2B8E005E22EE /* Debug */,
+				DD193A7A2A2A2B8E005E22EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD193A7B2A2A2B8E005E22EE /* Build configuration list for PBXNativeTarget "Terrafic_RTiOS_UIKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD193A7C2A2A2B8E005E22EE /* Debug */,
+				DD193A7D2A2A2B8E005E22EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD193A7E2A2A2B8E005E22EE /* Build configuration list for PBXNativeTarget "Terrafic_RTiOS_UIKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD193A7F2A2A2B8E005E22EE /* Debug */,
+				DD193A802A2A2B8E005E22EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD193A462A2A2B8B005E22EE /* Project object */;
+}
