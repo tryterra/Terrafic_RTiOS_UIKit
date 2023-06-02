@@ -9,4 +9,4 @@ import Foundation
 
 let DEVID = "testing"
 let XAPIKEY = "XAPIKEY"
-let REFID = "1234"
+let USERID = "1234"

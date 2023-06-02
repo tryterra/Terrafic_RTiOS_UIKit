@@ -52,7 +52,6 @@ public func generateSDKToken(devId: String, xAPIKey: String) -> TokenPayload?{
 class FirstScreen: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupButton()
         let terraRT = TerraRT(devId: DEVID, referenceId: XAPIKEY) { succ in
             print("TerraRT init: \(succ)")
         }
