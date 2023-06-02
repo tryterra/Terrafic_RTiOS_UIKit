@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		DD193A522A2A2B8C005E22EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD193A512A2A2B8C005E22EE /* AppDelegate.swift */; };
 		DD193A542A2A2B8C005E22EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD193A532A2A2B8C005E22EE /* SceneDelegate.swift */; };
-		DD193A562A2A2B8C005E22EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD193A552A2A2B8C005E22EE /* ViewController.swift */; };
-		DD193A592A2A2B8C005E22EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD193A572A2A2B8C005E22EE /* Main.storyboard */; };
+		DD193A562A2A2B8C005E22EE /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD193A552A2A2B8C005E22EE /* FirstScreen.swift */; };
 		DD193A5B2A2A2B8D005E22EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD193A5A2A2A2B8D005E22EE /* Assets.xcassets */; };
 		DD193A5E2A2A2B8D005E22EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD193A5C2A2A2B8D005E22EE /* LaunchScreen.storyboard */; };
 		DD193A692A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD193A682A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitTests.swift */; };
 		DD193A732A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD193A722A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitUITests.swift */; };
 		DD193A752A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD193A742A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitUITestsLaunchTests.swift */; };
+		DD193A822A2A38B2005E22EE /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD193A812A2A38B2005E22EE /* Config.swift */; };
+		DD193A882A2A3CF6005E22EE /* TerraRTiOS in Frameworks */ = {isa = PBXBuildFile; productRef = DD193A872A2A3CF6005E22EE /* TerraRTiOS */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,7 @@
 		DD193A4E2A2A2B8C005E22EE /* Terrafic_RTiOS_UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Terrafic_RTiOS_UIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD193A512A2A2B8C005E22EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD193A532A2A2B8C005E22EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DD193A552A2A2B8C005E22EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DD193A582A2A2B8C005E22EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD193A552A2A2B8C005E22EE /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
 		DD193A5A2A2A2B8D005E22EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD193A5D2A2A2B8D005E22EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD193A5F2A2A2B8D005E22EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		DD193A6E2A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Terrafic_RTiOS_UIKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD193A722A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terrafic_RTiOS_UIKitUITests.swift; sourceTree = "<group>"; };
 		DD193A742A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terrafic_RTiOS_UIKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DD193A812A2A38B2005E22EE /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		DD193A842A2A39C9005E22EE /* TerraRTiOS */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = TerraRTiOS; path = ../../Terra/TerraRTiOS; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD193A882A2A3CF6005E22EE /* TerraRTiOS in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +82,12 @@
 		DD193A452A2A2B8B005E22EE = {
 			isa = PBXGroup;
 			children = (
+				DD193A832A2A39C9005E22EE /* Packages */,
 				DD193A502A2A2B8C005E22EE /* Terrafic_RTiOS_UIKit */,
 				DD193A672A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitTests */,
 				DD193A712A2A2B8E005E22EE /* Terrafic_RTiOS_UIKitUITests */,
 				DD193A4F2A2A2B8C005E22EE /* Products */,
+				DD193A862A2A3CF6005E22EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +106,11 @@
 			children = (
 				DD193A512A2A2B8C005E22EE /* AppDelegate.swift */,
 				DD193A532A2A2B8C005E22EE /* SceneDelegate.swift */,
-				DD193A552A2A2B8C005E22EE /* ViewController.swift */,
-				DD193A572A2A2B8C005E22EE /* Main.storyboard */,
+				DD193A552A2A2B8C005E22EE /* FirstScreen.swift */,
 				DD193A5A2A2A2B8D005E22EE /* Assets.xcassets */,
 				DD193A5C2A2A2B8D005E22EE /* LaunchScreen.storyboard */,
 				DD193A5F2A2A2B8D005E22EE /* Info.plist */,
+				DD193A812A2A38B2005E22EE /* Config.swift */,
 			);
 			path = Terrafic_RTiOS_UIKit;
 			sourceTree = "<group>";
@@ -127,6 +132,21 @@
 			path = Terrafic_RTiOS_UIKitUITests;
 			sourceTree = "<group>";
 		};
+		DD193A832A2A39C9005E22EE /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				DD193A842A2A39C9005E22EE /* TerraRTiOS */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		DD193A862A2A3CF6005E22EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +163,9 @@
 			dependencies = (
 			);
 			name = Terrafic_RTiOS_UIKit;
+			packageProductDependencies = (
+				DD193A872A2A3CF6005E22EE /* TerraRTiOS */,
+			);
 			productName = Terrafic_RTiOS_UIKit;
 			productReference = DD193A4E2A2A2B8C005E22EE /* Terrafic_RTiOS_UIKit.app */;
 			productType = "com.apple.product-type.application";
@@ -233,7 +256,6 @@
 			files = (
 				DD193A5E2A2A2B8D005E22EE /* LaunchScreen.storyboard in Resources */,
 				DD193A5B2A2A2B8D005E22EE /* Assets.xcassets in Resources */,
-				DD193A592A2A2B8C005E22EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD193A562A2A2B8C005E22EE /* ViewController.swift in Sources */,
+				DD193A562A2A2B8C005E22EE /* FirstScreen.swift in Sources */,
+				DD193A822A2A38B2005E22EE /* Config.swift in Sources */,
 				DD193A522A2A2B8C005E22EE /* AppDelegate.swift in Sources */,
 				DD193A542A2A2B8C005E22EE /* SceneDelegate.swift in Sources */,
 			);
@@ -297,14 +320,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DD193A572A2A2B8C005E22EE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD193A582A2A2B8C005E22EE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DD193A5C2A2A2B8D005E22EE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +381,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +435,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -437,13 +452,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FM2KJ68P26;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Terrafic_RTiOS_UIKit/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Required to connect to stream data from wearables over BLE";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Required to stream data from sensor on device";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,13 +481,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FM2KJ68P26;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Terrafic_RTiOS_UIKit/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Required to connect to stream data from wearables over BLE";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Required to stream data from sensor on device";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -596,6 +615,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DD193A872A2A3CF6005E22EE /* TerraRTiOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TerraRTiOS;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DD193A462A2A2B8B005E22EE /* Project object */;
 }
